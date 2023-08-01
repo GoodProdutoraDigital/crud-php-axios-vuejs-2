@@ -11,7 +11,7 @@ class conn {
             $con = new PDO("mysql:host=".url."; dbname=".database, user, pass, $opt);
             return $con;
         } catch (Exception $e) {
-            die("Erro ao conectar com bando de dados: ".$e->getMessage());
+            die("Erro ao conectar com banco de dados: ".$e->getMessage());
         }
     }
 
