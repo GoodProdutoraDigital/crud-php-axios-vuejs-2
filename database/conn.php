@@ -4,7 +4,7 @@ class conn {
     public static function Conectar(){
         define('url', 'localhost');
         define('user', 'root');
-        define('pass', 'dA2uMelO3oVE5e3OqI4eJuvOs4zeMA');
+        define('pass', '');
         define('database', 'crud_vuejs');
         $opt = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
         try {
